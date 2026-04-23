@@ -1,0 +1,166 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
+body {
+    font-family: cursive;
+    background-image: url(../images/bake3.webp);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    width:1250px;
+    height:1200px;
+    text-align: center;
+}
+#container { 
+    height: 300px;
+    width:1250px;
+
+} 
+header, footer{
+    background-color: antiquewhite;
+}
+header img {
+    position: relative;
+    left:5px;
+    top:2px;
+    border-radius: 10px;
+    
+}
+
+nav {}
+nav ul{}
+nav ul li {
+    background-color: beige;
+    margin:20px 15px;
+    width:200px;
+    display:inline-block;
+    padding:15px;
+    border-radius:20px;
+    position: sticky;
+    text-align: center;
+}
+nav ul li a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    width: 125px;
+    font-size: 20px;
+    
+    
+}
+nav ul li a:hover {
+     color: white;
+     background-color: skyblue;
+}
+.thumbnail-grid {
+	user-select: none
+}
+.thumbnail-grid figure {
+	position: relative;
+    top:100px;
+	width: 200px;
+	height: 150px;
+	margin: 5px;
+	border-radius: 3px;
+	box-shadow: inset 0 -40px 0 0 rgba(0,0,0,.2);
+	transition: all .3s ease-in-out;
+}
+.thumbnail-grid figure:hover {
+    box-shadow: inset 0 -150px 0 0 rgba(0,0,0,.5);
+}
+.thumbnail-grid figcaption {
+	text-shadow: 0 0 4px black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+	width: 100%;
+	transition: all .3s ease-in-out;
+}
+.thumbnail-grid figure:hover figcaption {
+	bottom: 65px;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch
+}
+.flex-item {
+	flex: 1 0 auto
+}
+.thumbnail-grid figure.i1 {
+	background: url(../images/MikiCake.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i2 {
+	background: url(../images/napol.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i3 {
+	background: url(../images/Honey.png) no-repeat center;
+	background-size: cover
+}
+.thumbnail-grid figure.i4 {
+	background: url(../images/prague.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i5 {
+	background: url(../images/swin.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i6 {
+	background: url(../images/3choko.png) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i7 {
+	background: url(../images/icecream.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i8 {
+	background: url(../images/mereng.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i9 {
+	background: url(../images/figure.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i10 {
+	background: url(../images/macaron.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i11 {
+	background: url(../images/baklava.jpg) no-repeat center;
+	background-size: cover;
+}
+.thumbnail-grid figure.i12 {
+	background: url(../images/pie.jpg) no-repeat center;
+	background-size: cover;
+
+}
+.thumbnail-grid figure.i13 {
+	background: url(../images/samsa.jpg) no-repeat center;
+	background-size: cover;
+
+}
+.thumbnail-grid figure.i14 {
+	background: url(../images/bread.JPG) no-repeat center;
+	background-size: cover;
+
+}
+footer{
+    position: relative;
+    height: 50px;
+    top:230px;
+    
+}
+footer p {
+    color:darkgoldenrod;
+    position: relative;
+    top: 10px;
+    
+}
+  

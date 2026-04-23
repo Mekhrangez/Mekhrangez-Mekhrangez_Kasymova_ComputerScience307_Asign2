@@ -1,0 +1,82 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
+body {
+    font-family: cursive;
+    background-image: url(../images/bake3.webp);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    width:1250px;
+    height:1200px;
+    text-align: center;
+}
+#container { 
+    height: 300px;
+    width:1250px;
+
+} 
+header, footer{
+    background-color: antiquewhite;
+}
+header img {
+    position: relative;
+    left:5px;
+    top:2px;
+    border-radius: 10px;
+    
+}
+
+nav {}
+nav ul{}
+nav ul li {
+    background-color: beige;
+    margin:20px 15px;
+    width:200px;
+    display:inline-block;
+    padding:15px;
+    border-radius:20px;
+    position: sticky;
+    text-align: center;
+}
+nav ul li a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    width: 125px;
+    font-size: 20px;
+    
+    
+}
+nav ul li a:hover {
+     color: white;
+     background-color: skyblue;
+}
+img{
+    position: relative;
+    left:30px;
+}
+ul, li, {
+    position: relative;
+    top:-100px;
+}
+article {
+    text-align: left;
+    background-color: rgb(250,250,250,.75);
+   
+}
+footer{
+    position: relative;
+    height: 50px;
+    top:-10px;
+    
+}
+footer p {
+    color:darkgoldenrod;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    
+}
+  
