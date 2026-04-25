@@ -19,7 +19,7 @@ This website was created as part of a software engineering assignment. The main 
 - CSS3
 
 ## 📁 Project Structure
-home.html
+index.html
 /pages → HTML pages
 /css → Styling files
 /images → Recipe images
