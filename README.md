@@ -32,7 +32,7 @@ home.html
 
 ## 🌐 Live Preview (if using GitHub Pages)
 If deployed, the website can be accessed here:
-https://yourusername.github.io/your-repo-name/
+https://mekhrangez.github.io/Mekhrangez-Mekhrangez_Kasymova_ComputerScience307_Asign2/
 
 ## 🧪 Testing
 Basic testing was performed to ensure:
